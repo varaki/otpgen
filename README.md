@@ -1,7 +1,7 @@
 # otpgen
 Simple TOTP code generator based on secrets
 
-** Requirements: **
+**Requirements:**
 - xclip package has to be installed
 
 
