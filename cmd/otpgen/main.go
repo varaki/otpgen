@@ -18,7 +18,7 @@ func main() {
     flag.BoolVar(&clipboard, "clipboard", false, "copy generated code to clipboard")
     flag.Parse()
 
-	code, err := generate(secret)
+    code, err := generate(secret)
     if err != nil {
         panic(err)
     }
